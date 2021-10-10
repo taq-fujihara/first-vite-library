@@ -1,13 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>C3-Table</title>
   </head>
   <body>
-    <div id="app"></div>
+    <p>
+      demo
+    </p>
+    <div id="app">
+      <div class="c3t c3t--fit-container">
+        <table class="c3t__table">
+          <colgroup>
+            <col style="width:150px">
+            <col style="width:100px">
+            <col style="width:100px">
+            <col style="width:100px">
+            <col style="width:100px">
+          </colgroup>
+          <thead class="c3t__header">
+            <tr>
+              <th class="c3t__header-cell">header1-1</th>
+              <th class="c3t__header-cell">header1-2</th>
+              <th class="c3t__header-cell">header1-3</th>
+              <th class="c3t__header-cell">header1-4</th>
+              <th class="c3t__header-cell">header1-5</th>
+            </tr>
+            <tr>
+              <th class="c3t__header-cell">header2-1</th>
+              <th class="c3t__header-cell">header2-2</th>
+              <th class="c3t__header-cell">header2-3</th>
+              <th class="c3t__header-cell">header2-4</th>
+              <th class="c3t__header-cell">header2-5</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="c3t__cell">row1-1</th>
+              <td class="c3t__cell">row1-2</td>
+              <td class="c3t__cell">row1-3</td>
+              <td class="c3t__cell">row1-4</td>
+              <td class="c3t__cell">row1-5</td>
+            </tr>
+            <tr>
+              <th class="c3t__cell">row2-1</th>
+              <td class="c3t__cell">row2-2</td>
+              <td class="c3t__cell">row2-3</td>
+              <td class="c3t__cell">row2-4</td>
+              <td class="c3t__cell">row2-5</td>
+            </tr>
+            <tr>
+              <th class="c3t__cell">row3-1</th>
+              <td class="c3t__cell">row3-2</td>
+              <td class="c3t__cell">row3-3</td>
+              <td class="c3t__cell">row3-4</td>
+              <td class="c3t__cell">row3-5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
